@@ -1,8 +1,3 @@
--- hs.hotkey.bind({"ctrl"}, "k", function()
---     local desktop = hs.window.desktop()
---     desktop:focus()
--- end)
-
 
 -- Vim Arrows
 hs.hotkey.bind({"ctrl"}, "h", function()
@@ -183,5 +178,7 @@ allwindows:subscribe(hs.window.filter.windowUnfocused, function () redrawBorder(
 -- k:bind('', 'escape', function() k:exit() end)
 -- k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pressed' end)
 
-
-
+-- hs.hotkey.bind({"ctrl"}, "k", function()
+--     local desktop = hs.window.desktop()
+--     desktop:focus()
+-- end)
