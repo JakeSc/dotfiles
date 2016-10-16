@@ -23,6 +23,21 @@ end)
 -- Launcher Mode --
 -------------------
 
+-- 
+-- This feature assumes you have instructed Karabiner-Elements to map right_command to f19:
+-- {
+--     "profiles": [
+--         {
+--             "name": "Default profile",
+--             "selected": true,
+--             "simple_modifications": {
+--                 "right_command": "f19"
+--             }
+--         }
+--     ]
+-- }
+-- 
+
 local launcherModeBindings = {
     x = "Xcode",
     r = "Simulator",
